@@ -1,0 +1,51 @@
+.main-task{
+    height: 7.3vh;
+    width: 97%;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    border-bottom: 1px solid #88236f;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input{
+    margin-left: 5px;
+    margin-top: -15px;
+}
+.task-todo{
+    margin-left: 5px;
+}
+
+/* for remove button */
+.remove{
+    border: none;
+    overflow: hidden;
+    margin-right: 2%;
+    background: none;
+    color: rgb(210, 99, 99);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.remove:active{
+    transform: translateY(2px);
+    transition: all ease 0.3s;
+}
+
+.motivation{
+    font-style: italic;
+}
+
+
